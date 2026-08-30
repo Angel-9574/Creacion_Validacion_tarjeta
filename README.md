@@ -1,39 +1,43 @@
 # Credit Card Utilities
 
-This repository contains two Python scripts for working with credit card numbers. These utilities can **generate** random valid credit card numbers and **validate** existing credit card numbers based on industry standards.
+Este repositorio contiene dos scripts de Python para trabajar con números de tarjeta de crédito. Estas utilidades permiten **generar** números de tarjeta de crédito válidos y aleatorios, así como **validar** números de tarjeta de crédito existentes siguiendo los estándares del sector.
 
 ## Files
 
-- `credit_card_generator.py`: Generates random valid credit card numbers for various card types (Visa, MasterCard, American Express, Discover).
-- `credit_card_validator.py`: Validates credit card numbers by checking card type, length, and using the Luhn algorithm to verify the number structure.
+- `credit_card_generator.py`Features
+: Genera números de tarjeta de crédito válidos y aleatorios para varios tipos de tarjeta. (Visa, MasterCard, American Express, Discover).
 
-## Features
+- `credit_card_validator.py`: Valida números de tarjeta de crédito comprobando el tipo y la longitud de la tarjeta, y utilizando el algoritmo de Luhn para verificar la estructura del número..
+
+## Características
 
 ### `credit_card_generator.py`
-- Allows the user to specify a card type for generation.
-- Generates a credit card number with a valid structure and check digit based on the Luhn algorithm.
-- Optionally formats the generated card number in groups for readability.
+- Permite al usuario especificar un tipo de tarjeta para la generación..
+- Genera un número de tarjeta de crédito con una estructura válida y un dígito de control basado en el algoritmo de Luhn.
+- Opcionalmente, formatea el número de tarjeta generado en grupos para facilitar su lectura.
 
 ### `credit_card_validator.py`
-- Accepts a credit card number input for validation.
-- Identifies the card type and checks the number’s length.
-- Verifies the number’s validity using the Luhn algorithm.
+- Acepta la entrada de un número de tarjeta de crédito para su validación.
+- Identifica el tipo de tarjeta y verifica la longitud del número.
+- Verifica la validez del número mediante el algoritmo de Luhn.
 
-## How to Use
+## Cómo utilizarlo
 
-### Requirements
-Ensure you have Python 3 installed.
 
-### Run `credit_card_generator.py`
-To generate a valid random credit card number:
+git clone https://github.com/Angel-9574/Creacion_Validacion_tarjeta
+
+### Requisitos
+Asegúrate de tener Python 3 instalada.
+
+Correr Para generar un número de tarjeta de crédito aleatorio válido:
 ```bash
 python credit_card_generator.py
 ```
-Follow the prompts to select a card type and generate a number.
+Sigue las indicaciones para seleccionar un tipo de tarjeta y generar un número..
 
 ### Run `credit_card_validator.py`
-To validate a credit card number, run:
+Para validar un número de tarjeta de crédito, ejecute:
 ```bash
 python credit_card_validator.py
 ```
-Enter a card number when prompted to check if it’s valid.
+Ingrese un número de tarjeta cuando se le solicite para verificar si es válido.
